@@ -1,4 +1,4 @@
-const _ = require("lodash");
+
 let arr = ['blue','black','red','orange','pink','green','white','blue','orange'];
 
 //chunk
@@ -62,7 +62,7 @@ console.log(_.endsWith('harbour','our'));
 
 // tail
 arr = [2,4,25,67,-1,0,100,44,10];
-console.log(tail(arr));
+console.log(_.tail(arr));
 
 // union
 let a = [1,2,3,4,5];
